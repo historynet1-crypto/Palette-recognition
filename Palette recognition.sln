@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palette recognition", "Palette recognition.csproj", "{314A6F50-DF65-7B88-6300-50670B2096DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{314A6F50-DF65-7B88-6300-50670B2096DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{314A6F50-DF65-7B88-6300-50670B2096DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{314A6F50-DF65-7B88-6300-50670B2096DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{314A6F50-DF65-7B88-6300-50670B2096DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4402B61A-12AD-4833-AF7D-192BC74497D8}
+	EndGlobalSection
+EndGlobal

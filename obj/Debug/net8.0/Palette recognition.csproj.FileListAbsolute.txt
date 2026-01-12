@@ -1,0 +1,32 @@
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\bin\Debug\net8.0\appsettings.json
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\bin\Debug\net8.0\Palette recognition.staticwebassets.runtime.json
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\bin\Debug\net8.0\Palette recognition.staticwebassets.endpoints.json
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\bin\Debug\net8.0\Palette recognition.exe
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\bin\Debug\net8.0\Palette recognition.deps.json
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\bin\Debug\net8.0\Palette recognition.runtimeconfig.json
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\bin\Debug\net8.0\Palette recognition.dll
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\bin\Debug\net8.0\Palette recognition.pdb
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\Palette recognition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\Palette recognition.AssemblyInfoInputs.cache
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\Palette recognition.AssemblyInfo.cs
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\Palette recognition.csproj.CoreCompileInputs.cache
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\Palette recognition.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\Palette recognition.RazorAssemblyInfo.cache
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\Palette recognition.RazorAssemblyInfo.cs
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\scopedcss\bundle\Palette recognition.styles.css
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\scopedcss\projectbundle\Palette recognition.bundle.scp.css
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\Palette recognition.dll
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\refint\Palette recognition.dll
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\Palette recognition.pdb
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\Palette recognition.genruntimeconfig.cache
+C:\Users\Thata\OneDrive\Desktop\Palette recognition\obj\Debug\net8.0\ref\Palette recognition.dll
