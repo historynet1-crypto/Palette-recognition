@@ -1,0 +1,33 @@
+@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Inloggen</h1>
+
+@if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+{
+    <div style="padding:10px;border:1px solid #c00;margin-bottom:10px;">
+        <b>@Model.ErrorMessage</b>
+    </div>
+}
+
+<form method="post">
+    <div>
+        <label asp-for="Input.Email"></label><br />
+        <input asp-for="Input.Email" />
+        <div><small><span asp-validation-for="Input.Email"></span></small></div>
+    </div>
+
+    <div style="margin-top:10px;">
+        <label asp-for="Input.Password"></label><br />
+        <input asp-for="Input.Password" type="password" />
+        <div><small><span asp-validation-for="Input.Password"></span></small></div>
+    </div>
+
+    <div style="margin-top:15px;">
+        <button type="submit">Inloggen</button>
+        <a asp-page="/Register" style="margin-left:10px;">Account aanmaken</a>
+    </div>
+</form>
