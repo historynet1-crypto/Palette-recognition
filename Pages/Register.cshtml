@@ -1,40 +1,130 @@
-
 @page
 @model RegisterModel
 @{
     ViewData["Title"] = "Register";
+    Layout = null;
 }
-
-<h1>Registreren</h1>
-
-@if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
-{
-    <div style="padding:10px;border:1px solid #c00;margin-bottom:10px;">
-        <b>@Model.ErrorMessage</b>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/Index.css" />
+    <style>
+        .RegisterContainer {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #D9D9D9;
+            border-radius: 20px;
+            box-shadow: 0px 6px 18px rgba(0,0,0,0.8);
+        }
+        .RegisterContainer h1 {
+            color: #3350A6;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 48px;
+        }
+        .RegisterContainer input {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 2px solid #3350A6;
+            border-radius: 8px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+        .RegisterContainer label {
+            color: #3350A6;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .RegisterContainer button {
+            width: 100%;
+            padding: 15px;
+            background-color: #3350A6;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .RegisterContainer button:hover {
+            background-color: #2a408a;
+        }
+        .RegisterContainer .link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .RegisterContainer .link a {
+            color: #3350A6;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .RegisterContainer .link a:hover {
+            text-decoration: underline;
+        }
+        .ErrorMessage {
+            background-color: #FF9898;
+            color: #3350A6;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .ValidationError {
+            color: #c00;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="TitelEnLogo">
+        <img src="~/Images/Schilderijen/LogoTB.jpg" class="Logo" alt="Logo" />
     </div>
-}
+    <br />
+    <br />
+    <br />
 
-<form method="post">
-    <div>
-        <label asp-for="Input.Email"></label><br />
-        <input asp-for="Input.Email" />
-        <div><small><span asp-validation-for="Input.Email"></span></small></div>
+    <div class="RegisterContainer">
+        <h1>REGISTREREN</h1>
+        
+        @if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+        {
+            <div class="ErrorMessage">
+                @Model.ErrorMessage
+            </div>
+        }
+
+        <form method="post">
+            <div>
+                <label asp-for="Input.Email">Email</label>
+                <input asp-for="Input.Email" />
+                <div class="ValidationError"><span asp-validation-for="Input.Email"></span></div>
+            </div>
+
+            <div style="margin-top:20px;">
+                <label asp-for="Input.Password">Wachtwoord</label>
+                <input asp-for="Input.Password" type="password" />
+                <div class="ValidationError"><span asp-validation-for="Input.Password"></span></div>
+            </div>
+
+            <div style="margin-top:20px;">
+                <label asp-for="Input.ConfirmPassword">Bevestig Wachtwoord</label>
+                <input asp-for="Input.ConfirmPassword" type="password" />
+                <div class="ValidationError"><span asp-validation-for="Input.ConfirmPassword"></span></div>
+            </div>
+
+            <button type="submit">REGISTREREN</button>
+            
+            <div class="link">
+                <a asp-page="/Login">Heb je al een account? Log hier in</a>
+            </div>
+        </form>
     </div>
 
-    <div style="margin-top:10px;">
-        <label asp-for="Input.Password"></label><br />
-        <input asp-for="Input.Password" type="password" />
-        <div><small><span asp-validation-for="Input.Password"></span></small></div>
-    </div>
-
-    <div style="margin-top:10px;">
-        <label asp-for="Input.ConfirmPassword"></label><br />
-        <input asp-for="Input.ConfirmPassword" type="password" />
-        <div><small><span asp-validation-for="Input.ConfirmPassword"></span></small></div>
-    </div>
-
-    <div style="margin-top:15px;">
-        <button type="submit">Account aanmaken</button>
-        <a asp-page="/Login" style="margin-left:10px;">Ik heb al een account</a>
-    </div>
-</form>
+    <br /><br /><br />
+</body>
+</html>

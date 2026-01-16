@@ -1,0 +1,35 @@
+@page
+@model EndscreenMonaLisaModel
+@{
+    ViewData["Title"] = "Endscreen - Mona Lisa";
+}
+<head>
+    <link rel="stylesheet" href="~/css/Index.css" />
+</head>
+<body>
+
+<div class="TekstblokNaam">
+    Leonardo Da Vinci<br>Mona Lisa
+</div>
+<br>
+
+<img src="~/Images/Schilderijen/Mona-Lisa.jpg" class="Schilderij" alt="Mona Lisa" />
+<br><br>
+
+<div class="TekstblokUitleg">
+    Ook bekend als La Gioconda, is dit iconische schilderij een van de beroemdste meesterwerken ooit, waarin Leonardo da Vinci op verbluffende wijze de raadselachtige expressie van een vrouw vastlegt.
+    Het werk groeide uit tot een universeel symbool van mysterie en artistieke perfectie.
+</div><br><br>
+
+<div class="TekstblokExtraInfo">
+    Locatie: Louvre Museum<br>
+    Datum: 1503<br>
+    Stroming: Portrait
+</div><br><br><br><br><br>
+
+<a asp-page="/Index" class="BackButton">
+    <img src="~/Images/Schilderijen/HomeknopWit.jpg" class="Homeknop2" alt="Home" />
+</a>
+<br />
+
+</body>

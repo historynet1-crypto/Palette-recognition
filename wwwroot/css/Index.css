@@ -1,0 +1,303 @@
+body {
+background: linear-gradient(to bottom, #1a1a1a, #2d2d2d);
+color:#3350A6;
+font-family:Verdana;
+font-size:100%;
+text-align:center;
+min-height: 100vh;
+margin: 0;
+padding: 0;
+}
+
+.TitelEnLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Logo{
+    width: 700px;
+    height: auto;
+}
+
+.MainTitle{
+    color: white;
+    font-size: 72px;
+    font-weight: 900;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.Tekstblok{
+    background-color:#D9D9D9;
+    border-radius:40px;
+    padding:10%;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.8);
+}
+
+h1{
+    font-weight:900;
+    font-family:Verdana;
+    font-size:240%;
+}
+
+.PogingMeter{
+    background-color:#D9D9D9;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    font-weight:bold;
+    margin-left:42%;
+    margin-right:42%;
+}
+
+.Antwoordveld{
+    Width:15%;
+    font-weight:1000;
+    font-family:Verdana;
+}
+
+#Titelblok{
+    font-weight:bold;
+    font-family:Verdana;
+    background-color:#D9D9D9;
+    font-size:50px;
+    padding-left:4%;
+    padding-right:4%;
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius:12px;
+    margin-right:5%;
+    margin-left:5%;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.8);
+}
+
+.Schilderij{  
+    width:30%;
+    height:30%;
+    padding:.5%;
+    outline-width:2px;
+    outline-style: double;
+    outline-color:#D9D9D9;
+    border-radius:8px;
+}
+
+.TekstblokInstr{
+    padding-top:4%;
+    padding-bottom:4%;
+    border-radius:12px;
+    margin-right:10%;
+    margin-left:10%;
+    background-color:#D9D9D9;
+    Font-size:160%;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.8);
+}
+
+.TekstblokNaam{
+    padding-top:4%;
+    font-weight:bold;
+    padding-bottom:4%;
+    border-radius:12px;
+    background-color:#D9D9D9;
+    Font-size:160%;
+    margin-left:30%;
+    margin-right:30%;
+    outline-width:2px;
+    outline-style: double;
+    outline-color:#D9D9D9;
+    border-radius:8px;
+    outline-offset:8px;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.8);
+}
+
+.TekstblokUitleg{
+    padding-top:4%;
+    padding-bottom:4%;
+    padding-left:1%;
+    padding-right:1%;
+    border-radius:12px;
+    background-color:#D9D9D9;
+    Font-size:120%;
+    margin-left:6%;
+    margin-right:6%;
+    outline-width:2px;
+    outline-style: double;
+    outline-color:#D9D9D9;
+    border-radius:8px;
+    outline-offset:8px;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.8);
+}
+
+.TekstblokExtraInfo{
+    padding:2%;
+    background-color:#D9D9D9;
+    Font-size:140%;
+    margin-left:32%;
+    margin-right:32%;
+    border-radius:20px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+    outline-width:2px;
+    outline-style: double;
+    outline-color:#D9D9D9;
+    border-radius:8px;
+    outline-offset:8px;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.8);
+}
+
+#ButtonPlay{
+    background-color:#D9D9D9;
+    border-radius:20px;
+    color:#3350A6;
+    padding-top:3%;
+    padding-bottom:3%;
+    padding-left:12%;
+    padding-right:12%;
+    margin-left:20%;
+    margin-right:20%;
+    font-size:80px;
+    font-weight:bold;
+    text-decoration:none;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.8);
+}
+
+#ButtonLoginRegister{
+    background-color:#D9D9D9;
+    border-radius:10px;
+    color:#3350A6;
+    padding:12px 24px;
+    font-size:18px;
+    font-weight:600;
+    text-decoration:none;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
+    display:inline-block;
+}
+
+.BackButton:hover {
+    background-color: #CFBB58;
+}
+
+.BackButton:active {
+    background-color: #EEDFA3;
+    transform: translateY(4px);
+}
+
+#ButtonPlay:hover {
+    background-color: #e7e7e7;
+}
+
+#ButtonPlay:active {
+    background-color: #D9D9D9;
+    transform: translateY(4px);
+}
+
+#ButtonLoginRegister:hover {
+    background-color: #e7e7e7;
+}
+
+#ButtonLoginRegister:active {
+    background-color: #D9D9D9;
+    transform: translateY(4px);
+}
+
+#Skip{
+    background-color:#FF9898;
+    color:#3350A6;
+    border-radius:10px;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:4%;
+    padding-right:4%;
+    font-size:300%;
+    font-weight:bolder;
+    text-decoration:none;
+}
+
+#Skip:hover {
+    background-color: #ff8585;
+}
+
+#Skip:active {
+    background-color: #FF9898;
+    transform: translateY(4px);
+}
+
+#Submit{
+    background-color:#b5e778;
+    color:#3350A6;
+    border-radius:10px;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:2.8%;
+    padding-right:2.8%;
+    font-size:300%;
+    font-weight:bolder;
+    text-decoration:none;
+}
+
+#Submit:hover {
+    background-color: #beff6f;
+}
+
+#Submit:active {
+    background-color: #EEDFA3;
+    transform: translateY(4px);
+}
+
+form{
+    font-weight:bold;
+}
+
+label{
+    background-color:#D9D9D9;
+}
+
+.form-control{
+    background-color:#4f4f4f;
+    border-width:2px;
+    border-color:#D9D9D9;
+    margin-left:25%;
+    margin-right:25%;
+    width:50%;
+}
+
+.Homeknop{
+    position:relative;
+    right:-200px;
+    top:140px;
+    width:5.4%;
+    border-radius:10px;
+    display:flex;
+}
+
+.Homeknop:hover {
+    background-color: #B8FF61;
+}
+
+.Homeknop:active {
+    background-color: #D9D9D9;
+    transform: translateY(4px);
+}
+
+.Homeknop2{
+    width:12.4%;
+    border-radius:10px;
+}
+
+.Homeknop2:hover {
+    background-color: #B8FF61;
+}
+
+.Homeknop2:active {
+    background-color: #D9D9D9;
+    transform: translateY(4px);
+}
+
+.FontNietBold{
+    Font-weight:normal;
+}

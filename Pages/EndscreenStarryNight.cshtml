@@ -1,0 +1,35 @@
+@page
+@model EndscreenStarryNightModel
+@{
+    ViewData["Title"] = "Endscreen - Starry Night";
+}
+<head>
+    <link rel="stylesheet" href="~/css/Index.css" />
+</head>
+<body>
+
+<div class="TekstblokNaam">
+    Van Gogh<br>Starry Night
+</div>
+<br>
+
+<img src="~/Images/Schilderijen/Starry-Night.jpg" class="Schilderij" alt="Starry Night" />
+<br><br>
+
+<div class="TekstblokUitleg">
+    Een van de meest herkenbare werken in de moderne kunst, toont een wervelende nachtelijke hemel boven een rustig stadje.
+    Van Gogh schilderde dit meesterwerk vanuit zijn kamer in het psychiatrisch ziekenhuis in Saint-Rémy-de-Provence.
+</div><br><br>
+
+<div class="TekstblokExtraInfo">
+    Locatie: Museum of Modern Art<br>
+    Datum: 1889<br>
+    Stroming: Post-Impressionism
+</div><br><br><br><br><br>
+
+<a asp-page="/Index" class="BackButton">
+    <img src="~/Images/Schilderijen/HomeknopWit.jpg" class="Homeknop2" alt="Home" />
+</a>
+<br />
+
+</body>

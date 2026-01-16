@@ -1,0 +1,55 @@
+@page
+@model Schilderijen_Model
+@{
+    ViewData["Title"] = "Schilderijen";
+}
+<head>
+    <link rel="stylesheet" href="~/css/Index.css" />
+</head>
+<body>
+
+<a asp-page="/Index" class="BackButton">
+    <img src="~/Images/Schilderijen/HomeknopWit.jpg" class="Homeknop" alt="Home" />
+</a>
+<br />
+
+<div class="PogingMeter">
+    Pogingen over: @TempData["Pogingen"] <br>
+
+    @if (TempData["Hint"] != null)
+    {
+        @TempData["Hint"]
+    }
+</div>
+
+<img src="~/Images/Schilderijen/@Model.Input.Afbeelding" class="Schilderij" alt="Schilderij" />
+
+<form method="post">
+    <input type="hidden" asp-for="Input.Afbeelding" />
+    <input type="hidden" asp-for="Input.JuisteAntwoord" />
+    <input type="hidden" asp-for="Input.CurrentArtworkName" />
+
+    @for (int i = 0; i < Model.Input.Hints.Count; i++)
+    {
+        <input type="hidden" name="Input.Hints[@i]" value="@Model.Input.Hints[i]" />
+    }
+
+    <div class="FontNietBold">
+        <label asp-for="Input.Antwoord" class="Antwoordveld">
+            @if (!string.IsNullOrEmpty(Model.Input.Antwoord))
+            {
+                <p>Jouw Antwoord: <strong>@Model.Input.Antwoord</strong></p>
+            }
+        </label><br />
+        <input asp-for="Input.Antwoord" class="form-control" />
+    </div>
+    <br />
+
+    <button type="submit" id="Submit">Check</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button type="submit" asp-page-handler="Skip" id="Skip">Skip</button>
+</form>
+<br><br><br>
+
+<br />
+
+</body>

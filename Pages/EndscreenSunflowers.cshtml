@@ -1,0 +1,35 @@
+@page
+@model EndscreenSunflowersModel
+@{
+    ViewData["Title"] = "Endscreen - Sunflowers";
+}
+<head>
+    <link rel="stylesheet" href="~/css/Index.css" />
+</head>
+<body>
+
+<div class="TekstblokNaam">
+    Van Gogh<br>Sunflowers
+</div>
+<br>
+
+<img src="~/Images/Schilderijen/Sunflowers.jpg" class="Schilderij" alt="Sunflowers" />
+<br><br>
+
+<div class="TekstblokUitleg">
+    Een stilleven van zonnebloemen in een vaas, geschilderd met levendige gele tinten.
+    Van Gogh maakte een serie van deze schilderijen in Arles, Frankrijk, om zijn gele huis te decoreren voor het bezoek van zijn vriend Paul Gauguin.
+</div><br><br>
+
+<div class="TekstblokExtraInfo">
+    Locatie: National Gallery<br>
+    Datum: 1888<br>
+    Stroming: Post-Impressionism
+</div><br><br><br><br><br>
+
+<a asp-page="/Index" class="BackButton">
+    <img src="~/Images/Schilderijen/HomeknopWit.jpg" class="Homeknop2" alt="Home" />
+</a>
+<br />
+
+</body>

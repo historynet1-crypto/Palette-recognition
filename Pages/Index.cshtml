@@ -1,10 +1,34 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Home Page";
 }
+<head>
+    <link rel="stylesheet" href="~/css/Index.css" />
+</head>
+<body>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="TitelEnLogo">
+    <img src="~/Images/Schilderijen/LogoTB.jpg" class="Logo" alt="Logo" />
 </div>
+<br />
+<br>
+
+<div class="TekstblokInstr">
+    1. Bekijk het kunstwerk dat wordt getoond <br/> <br />
+    2. Raad de naam van de kunstenaar of de titel van het werk <br /> <br />
+    3. Je hebt 3 pogingen - na elke foute poging krijg je een hint <br /> <br />
+</div>
+<br><br><br><br><br>
+
+<a asp-page="/Schilderijen" id="ButtonPlay">P L A Y</a>
+
+<br><br><br><br>
+
+<div style="text-align:center;">
+    <a asp-page="/Login" id="ButtonLoginRegister">LOG IN / REGISTREER</a>
+</div>
+
+<br><br><br><br>
+
+</body>
